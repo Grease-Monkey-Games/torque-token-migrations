@@ -13,7 +13,7 @@ module.exports = {
       defaultProvider: 'alchemy',
     },
     mumbai: {
-      defaultProvider: 'infura',
+      defaultProvider: 'alchemy',
     },
 
     // BSC

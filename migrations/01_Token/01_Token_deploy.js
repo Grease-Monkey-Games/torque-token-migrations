@@ -23,9 +23,9 @@ async function getAllocations(hre) {
 }
 
 module.exports = ERC20FixedSupply_deploy(
-  'Token',
-  'Token',
-  'TOK',
+  'TorqueToken',
+  'Torque Token',
+  'TORQUE',
   18,
   async (hre) => (await getAllocations(hre)).map((allocation) => allocation.address),
   async (hre) => (await getAllocations(hre)).map((allocation) => utils.parseEther(allocation.amount))
