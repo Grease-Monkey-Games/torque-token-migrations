@@ -5,9 +5,15 @@ module.exports = {
       defaultProvider: 'alchemy',
     },
     goerli: {
-      defaultProvider: 'infura',
+      defaultProvider: 'alchemy',
     },
-
+    // Arbitrum
+    arb1: {
+      defaultProvider: 'alchemy',
+    },
+    arbgoerli: {
+      defaultProvider: 'alchemy',
+    },
     // Polygon
     matic: {
       defaultProvider: 'alchemy',
