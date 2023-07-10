@@ -6,13 +6,13 @@ async function getAllocations(hre) {
   const namedAccounts = await hre.getNamedAccounts();
 
   const mainnetAllocations = [
-    {name: 'Swap_REVV_Foundation', address: namedAccounts.Token_poolA, amount: '222222222'},
-    {name: 'Public_Sale', address: namedAccounts.Token_poolB, amount: '35555556'},
-    {name: 'Advisor', address: namedAccounts.Token_poolC, amount: '26666667'},
-    {name: 'Team', address: namedAccounts.Token_poolC, amount: '71111111'},
-    {name: 'LPs', address: namedAccounts.Token_poolC, amount: '35555556'},
-    {name: 'Marketing', address: namedAccounts.Token_poolC, amount: '44444444'},
-    {name: 'Treasury', address: namedAccounts.Token_poolC, amount: '453333333'},
+    {name: 'Swap_REVV_Foundation', address: namedAccounts.Swap_REVV_Foundation, amount: '222222222'},
+    {name: 'Public_Sale', address: namedAccounts.Public_Sale, amount: '35555556'},
+    {name: 'Advisor', address: namedAccounts.Advisor, amount: '26666667'},
+    {name: 'Team', address: namedAccounts.Team, amount: '71111111'},
+    {name: 'LPs', address: namedAccounts.LPs, amount: '35555556'},
+    {name: 'Marketing', address: namedAccounts.Marketing, amount: '44444443'},
+    {name: 'Treasury', address: namedAccounts.Treasury, amount: '453333333'},
   ];
 
   const testnetAllocations = [
