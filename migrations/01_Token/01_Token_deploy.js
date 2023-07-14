@@ -15,14 +15,7 @@ async function getAllocations(hre) {
     {name: 'Treasury', address: namedAccounts.Treasury, amount: '453333333'},
   ];
 
-  const testnetAllocations = [
-    {name: 'Deployer', address: namedAccounts.deployer, amount: '1000000000'},
-    ...[...hre.namedGroups.QATeam].map((wallet) => {
-      return {name: 'QAWallet', address: wallet, amount: '50000000'};
-    }),
-  ];
-
-  const allocations = hre.network.tags.production ? mainnetAllocations : testnetAllocations;
+  const allocations = mainnetAllocations;
   return allocations;
 }
 
