@@ -12,20 +12,20 @@
   resolved "https://registry.npmjs.org/@animoca/ethereum-contracts/-/ethereum-contracts-1.1.1.tgz"
   integrity sha512-GE+q8hbVmwS4fXbJIjRtM1gXTF/PhdAfe29rD2GUZnGWFKqsEkuHzds+Xk1RkTUmKCuX0gcXx9si4L8HCumJpA==
 
-"@animoca/ethereum-contracts-2.0@npm:@animoca/ethereum-contracts@2.0.0-rc.0":
-  version "2.0.0-rc.0"
-  resolved "https://registry.npmjs.org/@animoca/ethereum-contracts/-/ethereum-contracts-2.0.0-rc.0.tgz"
-  integrity sha512-rtqyMzcqqMlx4IheKCGWw5pak+S1L++Ll8etEPjrJWBiz7TfyTtAQUheuxFGmgfznsQljzDMfzllqorz38PLmw==
+"@animoca/ethereum-contracts-2.0@npm:@animoca/ethereum-contracts@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.npmjs.org/@animoca/ethereum-contracts/-/ethereum-contracts-2.0.0.tgz"
+  integrity sha512-ZmErM7cu08gNx08p0sPQKiGAtvjSghhIf730ypEACfB+/eyOS5LAkyS0vZHPjy4w8lmGI8O/ucymxQDaZj6POw==
 
 "@animoca/ethereum-contracts-bridging-0.3@npm:@animoca/ethereum-contracts-bridging@0.3.0":
   version "0.3.0"
   resolved "https://registry.npmjs.org/@animoca/ethereum-contracts-bridging/-/ethereum-contracts-bridging-0.3.0.tgz"
   integrity sha512-pAwyjuO2WHqnyiRlqmzZtlhOyJ9DAQ8sTjD0VwwsbAqsDsFU+wAVIGKOothhFjkNoUsIM/TyzrUZEafzTtGPFQ==
 
-"@animoca/ethereum-contracts-bridging-1.0@npm:@animoca/ethereum-contracts-bridging@1.0.0-rc.0":
-  version "1.0.0-rc.0"
-  resolved "https://registry.npmjs.org/@animoca/ethereum-contracts-bridging/-/ethereum-contracts-bridging-1.0.0-rc.0.tgz"
-  integrity sha512-m5WdwL10QfKh3mZ7BG5wKHq+HrNc/5lETPeduU27o6s33JhCj0RQAxj4yFBM/CIfeA1YbPF3DZp5My412QFYkw==
+"@animoca/ethereum-contracts-bridging-1.0@npm:@animoca/ethereum-contracts-bridging@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/@animoca/ethereum-contracts-bridging/-/ethereum-contracts-bridging-1.0.0.tgz"
+  integrity sha512-XdffoH+ym61/MemmpEmoWBlfjNj3djkBMXwtS2nRH/VZfMBMNaNgvS3+a5OUNijwt+Ec8O6qtZF+ArgoYoOnJA==
 
 "@animoca/ethereum-contracts-bridging@^1.0.0":
   version "1.0.0"
@@ -41,11 +41,6 @@
   version "2.0.0"
   resolved "https://registry.npmjs.org/@animoca/ethereum-migrations/-/ethereum-migrations-2.0.0.tgz"
   integrity sha512-S2w9xuX/hKUkJzflauTB+0X6krXFHlImAKLzFsvcanwUWeEhdxuy86CVFyFccnrUFFIQYTjnwbRNttAP820Ppg==
-
-"@animoca/template-ethereum-contracts-0.0@npm:@animoca/template-ethereum-contracts@0.0.6-rc.0":
-  version "0.0.6-rc.0"
-  resolved "https://registry.npmjs.org/@animoca/template-ethereum-contracts/-/template-ethereum-contracts-0.0.6-rc.0.tgz"
-  integrity sha512-Mtqye5DYGgvPJBgaYdvz3sWhafNXhsrQAA3QyZCpJ74Kl/YBq6mpIIy4fpu5RQP8JipE0OuPqdHx9VNhpva9BA==
 
 "@chainsafe/as-sha256@^0.3.1":
   version "0.3.1"
