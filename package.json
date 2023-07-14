@@ -33,6 +33,13 @@
   },
   "devDependencies": {
     "@animoca/ethereum-contract-helpers": "^0.0.4",
+    "@animoca/ethereum-contracts": "^2.0.0",
+    "@animoca/ethereum-contracts-1.0": "npm:@animoca/ethereum-contracts@1.1.1",
+    "@animoca/ethereum-contracts-2.0": "npm:@animoca/ethereum-contracts@2.0.0-rc.0",
+    "@animoca/ethereum-contracts-bridging": "^1.0.0",
+    "@animoca/ethereum-contracts-bridging-0.3": "npm:@animoca/ethereum-contracts-bridging@0.3.0",
+    "@animoca/ethereum-contracts-bridging-1.0": "npm:@animoca/ethereum-contracts-bridging@1.0.0-rc.0",
+    "@animoca/ethereum-migrations": "^2.0.0",
     "@animoca/template-ethereum-contracts-0.0": "npm:@animoca/template-ethereum-contracts@0.0.6-rc.0",
     "@nomiclabs/hardhat-ethers": "^2.2.3",
     "@nomiclabs/hardhat-etherscan": "^3.1.7",
@@ -53,10 +60,5 @@
     "npm-run-all": "^4.1.5",
     "prettier": "^2.8.8",
     "yesno": "^0.4.0"
-  },
-  "dependencies": {
-    "@animoca/ethereum-contracts": "^2.0.0",
-    "@animoca/ethereum-contracts-bridging": "^1.0.0",
-    "@animoca/ethereum-migrations": "^2.0.0"
   }
 }
