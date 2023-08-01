@@ -1,12 +1,12 @@
 {
-  "name": "@animocabrands/template-ethereum-migrations",
+  "name": "torque-token-migrations",
   "version": "0.0.2",
   "description": "description",
   "author": "author",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:animoca/template-ethereum-migrations.git"
+    "url": "git@github.com:Grease-Monkey-Games/torque-token-migrations.git"
   },
   "scripts": {
     "postinstall": "bash -c 'for cfg in .vscode/settings.json .vscode/extensions.json .vscode/launch.json; do cp -n ${cfg}.default ${cfg} || :; done'",

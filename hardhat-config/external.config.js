@@ -11,9 +11,6 @@ module.exports = {
         ],
         deploy: 'node_modules/@animoca/ethereum-migrations/migrations',
       },
-      {
-        artifacts: ['node_modules/@animoca/template-ethereum-contracts-0.0/artifacts'],
-      },
     ],
     deployments: {
       hardhat: ['node_modules/@animoca/ethereum-migrations/deployments/all'],

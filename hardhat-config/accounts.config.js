@@ -4,17 +4,6 @@ module.exports = {
       default: 0,
     },
 
-    // QA team
-    QA1: {
-      default: '0xdeaddeaddeaddeaddeaddeaddeaddeaddeaddead',
-    },
-    QA2: {
-      default: '0xdeaddeaddeaddeaddeaddeaddeaddeaddeaddead',
-    },
-    QA3: {
-      default: '0xdeaddeaddeaddeaddeaddeaddeaddeaddeaddead',
-    },
-
     // Token
     Swap_REVV_Foundation: {
       default: '0xfc44f66c19c7FA8Fe2295bC44fEC28639B287e1C',
@@ -37,14 +26,5 @@ module.exports = {
     Treasury: {
       default: '0xE0260F5F27A3daE678E08F4F50B73AcCDB80173A',
     },
-
-    // NFT
-    NFT_royaltyReceiver: {
-      default: 0,
-    },
-  },
-
-  namedGroups: {
-    QATeam: ['QA1', 'QA2', 'QA3'],
   },
 };
